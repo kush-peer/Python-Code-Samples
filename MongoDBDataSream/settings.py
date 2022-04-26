@@ -8,7 +8,7 @@ load_dotenv(dotenv_path)
 
 # Accessing variables.
 NUM_RECORDS_TO_GENERATE = 1000
-MONGODB_ATLAS_URL = 'mongodb+srv://mongodb-admin:mongodb-password@cayman.ya2tg.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+MONGODB_ATLAS_URL = 'mongodb+srv://XXX:XXXXXXX@cayman.ya2tg.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 DATABASE = 'retail'
 COLLECTION = 'superstore'
 
