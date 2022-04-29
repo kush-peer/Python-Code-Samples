@@ -1,3 +1,17 @@
+def main():
+    print("Test set")
+
+# remove dupliates from list  
+list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'i', 'i', 'a', 'a', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+def setFunction(list):
+    duplicates = set([x for x in list if list.count(x)>1])
+    print(duplicates)
+
+setFunction(list)
+
+
+list = set(list)
+print(list)
 Set = set([1,2,'test',4,5,6])
 print("\nSet containing multiple values: ", Set)
 for i in Set:
@@ -19,4 +33,7 @@ for i, ar in enumerate(arr):
         break
 arr[i] = ar+i;
 print(arr)
+
+if __name__ == "__main__":
+    main()
 
